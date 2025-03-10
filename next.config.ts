@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 // GitHub Pagesのリポジトリ名を取得
-const repo = 'Oh-my-fragrance';
+const repo = 'oh-my-fragrance';
 const assetPrefix = process.env.NODE_ENV === 'production' ? `/${repo}` : '';
 const basePath = process.env.NODE_ENV === 'production' ? `/${repo}` : '';
 
